@@ -1,0 +1,174 @@
+/*先删除默认的内外边距*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #fafafa;
+	height: 3000px;
+}
+li {
+	list-style: none;   /*取消li的小点*/
+}
+
+
+/*顶部导航栏*/
+.header  {
+	height: 80px;
+	background-color: #fff;
+}
+
+/*导航栏版心*/
+.inner {
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+	line-height: 80px;
+	
+}
+/*导航栏logo*/
+.logo {
+	float: left;
+}
+/*导航栏菜单*/
+.nav {
+	float: right;
+}
+.nav li {
+	float: left;
+	margin: 0 20px;
+}
+.nav li a {
+	font-size: 14px;
+	/*color: #333;*/
+	color: #5DC2CF;
+	text-decoration: none;
+}
+.nav li a:hover {
+	color: #333;
+}
+/*固定广告*/
+.guanggaoleft {
+	width: 215px;
+	height: 300px;
+	border: 2px solid #ccc;
+	position: fixed;
+	top: 300px;
+	left: 0;
+
+}
+.guanggaoright {
+	width: 215px;
+	height: 300px;
+	border: 2px solid #ccc;
+	position: fixed;
+	top: 300px;
+	right: 0;
+}
+
+.banner {
+	margin-top: 40px;
+	position: relative;
+
+}
+.banner .banner-jianjie {
+	width: 1200px;
+	height: 500px;
+	border: 2px solid #5DC2CF;
+	position: absolute;
+	left: 50%;
+	margin-left: -600px;
+	background-color: #fff;
+
+}
+.banner .banner-jianjie div {
+	width: 190px;
+	height: 450px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-left: 7px;
+	margin-top: 24px;
+	/*background-color: #ccc;*/
+}
+.banner .banner-jianjie ul{
+	background-color: #fafafa;
+	width: 190px;
+	height: 450px;
+	position: relative;
+}
+
+/*个人框头像*/
+ul .touxiang {
+	display: block;
+	width: 100px;
+	height: 100px;
+	/*background: url(images/qingpo.jpg) no-repeat center;
+*/	position: absolute;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: 10px;
+	/*background-color: pink;*/
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+
+
+/*个人简介*/
+
+ul .jianjie {
+	border: 1px solid #ccc;
+	width: 160px;
+	height: 260px;
+	position: absolute;
+	left: 50%;
+	margin-left: -80px;
+	margin-top: 120px;
+	background-color: #fff;
+	/*background-color: pink;*/
+}
+.jianjie p{
+	font-size: 14px;
+	color: #ccc;
+	line-height: 40px;
+	text-align: center;	
+}
+.jianjie h4 {
+	color: #5DC2CF;
+	line-height: 30px;
+	text-align: center;	
+	
+
+}
+.jianjie h5{
+	color: #ccc;
+	
+	text-align: center;	
+}
+
+
+/*添加好友按钮*/
+.banner .banner-jianjie a{
+	text-decoration: none;
+	display: block;
+	width: 90px;
+	height: 38px;
+	position: absolute;
+	margin-top: 400px;
+	left: 50%;
+	margin-left: -45px;
+	background-color: #5DC2CF;
+	/*color: #8FC0E7;*/
+	border-radius: 10px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.banner .banner-jianjie a:hover {
+	background-color: #59A9EC;
+	/*color: #59A9EC;*/
+}
+
+
